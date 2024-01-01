@@ -34,10 +34,16 @@ localStorage.setItem("todo",JSON.stringify(todo))
               return <Todoitems  key={index} setTodo={setTodo} no={item.no} display={item.display} text={item.text}/>
               })}
             </div>
+            <div className='footer'>
+  <p>Made by Pranesh</p>
+</div>
         </div>
+        
     
   )
 }
-
+{/* <div className='footer'>
+  <p>Made by Pranesh</p>
+</div> */}
 
 export default Todo

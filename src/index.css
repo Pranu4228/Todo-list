@@ -6,3 +6,8 @@ body{
     background: linear-gradient(25deg, white 50%, black 50%);
     font-family: 'Poppins', sans-serif;
 }
+.footer{
+    color: black;
+    text-align: center;
+    margin-top: 320px;
+}

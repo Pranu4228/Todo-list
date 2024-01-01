@@ -6,7 +6,10 @@ const App = () => {
     <div>
     <Todo/>
     </div>
+    
   )
 }
-
+<div className='footer'>
+  <p>Made by Pranesh</p>
+</div>
 export default App;
